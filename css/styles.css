@@ -17,7 +17,6 @@
     display: block;
 }
 
-
 header nav ul {
     list-style-type: none;
     padding: 20px;
@@ -36,11 +35,19 @@ header nav ul a:hover {
     color: grey;
 }
 
+/*Hero*/
 .hero img {
   width: 100%;
   height: auto;
   opacity: 0.7
 }
+
+.imageseries img {
+    width: 100%;
+}
+
+/**//**//**//**//**/
+
 
 @media (min-width: 768px){
     /*Header*/
@@ -60,10 +67,51 @@ header nav ul a:hover {
 
     .menu ul {
         display: flex;
+        flex-direction: row;
         gap: 20px;
+        font-size: 1.5em;
+        font-weight: bold;
+        align-items: right;
     }
 
     .hero img {
         max-width: 100%;
     }
+
+    header {
+        display: flex;
+    }
+
+    .hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+        z-index: 1;
+    }
+
+    .hero h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        text-align: center;
+        z-index: 2;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    .imageseries-row {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .imageseries img {
+        flex: 1;
+        min-width: 0;
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px
+    }
+
 }
