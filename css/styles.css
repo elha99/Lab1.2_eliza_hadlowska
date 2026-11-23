@@ -161,7 +161,6 @@ footer ul {
         gap: 20px;
         font-size: 1.5em;
         font-weight: bold;
-        align-items: right;
     }
     
     /*Hero*/
@@ -198,12 +197,18 @@ footer ul {
         gap: 10px;
     }
 
-    .imageseries img {
+    .imageseries-row picture {
         flex: 1;
         min-width: 0;
+    }
+
+    .imageseries img {
+        width: 100%;
         height: auto;
+        aspect-ratio: 1/1;
         object-fit: cover;
         border-radius: 8px
+        
     }
 
     /*BILDREDIGERING*/
