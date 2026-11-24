@@ -53,13 +53,9 @@ header nav ul a:hover {
     gap: 10px;
 }
 
-.pictures_001 picture {
+.pictures_001 img {
     flex: 1;
     min-width: 0;
-}
-
-.pictures_001 img {
-    width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 8px
@@ -71,13 +67,9 @@ header nav ul a:hover {
     gap: 10px;
 }
 
-.pictures_007 picture {
+.pictures_007 img {
     flex: 1;
     min-width: 0;
-}
-
-.pictures_007 img {
-    width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 8px
@@ -89,13 +81,9 @@ header nav ul a:hover {
     gap: 10px;
 }
 
-.pictures_013 picture {
+.pictures_013 img {
     flex: 1;
     min-width: 0;
-}
-
-.pictures_013 img {
-    width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 8px
@@ -112,13 +100,9 @@ header nav ul a:hover {
     flex-direction: column;
 }
 
-.portrait-container picture {
+.portrait-container img {
     flex: 1;
     min-width: 0;
-}
-
-.portrait-container img {
-    width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 8px
@@ -177,6 +161,7 @@ footer ul {
         gap: 20px;
         font-size: 1.5em;
         font-weight: bold;
+        align-items: right;
     }
     
     /*Hero*/
@@ -213,18 +198,12 @@ footer ul {
         gap: 10px;
     }
 
-    .imageseries-row picture {
+    .imageseries img {
         flex: 1;
         min-width: 0;
-    }
-
-    .imageseries img {
-        width: 100%;
         height: auto;
-        aspect-ratio: 1/1;
         object-fit: cover;
         border-radius: 8px
-        
     }
 
     /*BILDREDIGERING*/
@@ -287,7 +266,7 @@ footer ul {
 
     .portrait-container img {
         height: auto;
-        width: 100%;
+        width: 200px;
         object-fit: cover;
         border-radius: 8px
     }
